@@ -18,19 +18,21 @@ Data primer yang digunakan dalam analisis ini bersumber dari portal data bencana
 ## Insight & Findings
 
 Berdasarkan analisis data yang telah dilakukan, ditemukan beberapa temuan utama:
-* **Tren Meningkat:** Terdapat peningkatan tren kejadian tanah longsor yang signifikan sejak tahun 2015.
-* **Zona Rawan Utama:** Tiga kabupaten teridentifikasi sebagai wilayah paling rawan longsor di Sumatera Utara, yaitu **Kabupaten Karo, Dairi, dan Humbang Hasundutan**.
+* **Tren Tahunan:** Puncak longsor pada 2021 (23 kasus), dengan lonjakan di 2014, 2019, 2020, 2023, 2024.
+* **Tren Bulanan:** November (33 kasus) dan Desember (22 kasus) adalah bulan paling rawan, terkait intensitas hujan tinggi.
+* **Daerah Terdampak:** Kabupaten/kota dengan kasus terbanyak: **Deli Serdang, Sibolga, Tapanuli Utara, Karo, Dairi**.
 * **Faktor Pemicu:** Kejadian longsor mayoritas dipicu oleh kombinasi tiga faktor utama: curah hujan dengan intensitas tinggi, kondisi geologi wilayah yang berbukit, serta adanya deforestasi.
 
 ## AI Support Explanation
 
-Kecerdasan Buatan (AI) memegang peranan penting dalam memperdalam analisis dan meningkatkan akurasi rekomendasi mitigasi. Berikut adalah peran AI dalam proyek ini:
+### Peran AI dalam Proyek ini
 
-### Analisis Tren & Prediksi
-Model *Machine Learning* digunakan untuk menganalisis data historis dan memprediksi potensi peningkatan atau penurunan kejadian longsor di masa depan (2026 dan seterusnya).
+Summarization: merangkum hasil analisis data ke format narasi.
+Insight Generation: mengidentifikasi pola puncak, faktor risiko, dan anomali.
+Recommendation: menyusun strategi mitigasi yang actionable (jangka pendek–panjang).
 
-### Pembuatan Heatmap Risiko
-Algoritma *Clustering* diterapkan untuk mengelompokkan daerah rawan berdasarkan berbagai variabel seperti data curah hujan, topografi, dan histori kejadian. Ini menghasilkan peta risiko (heatmap) yang lebih dinamis.
+### Keunggulan AI
 
-### Prioritas Mitigasi
-Model AI dapat membantu pemerintah dalam menentukan prioritas intervensi. Dengan menganalisis berbagai faktor risiko, model dapat merekomendasikan alokasi sumber daya untuk mitigasi ke wilayah yang paling membutuhkan.
+Memberikan interpretasi cepat dari data kompleks.
+Menyediakan rekomendasi berbasis best practices global.
+Membantu komunikasi hasil analisis agar lebih mudah dipahami pemangku kebijakan.
